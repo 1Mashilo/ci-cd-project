@@ -2,7 +2,6 @@
 Service Package
 """
 
-from service import routes  # Move imports to the top 
 from service.common import log_handlers
 
 from flask import Flask
