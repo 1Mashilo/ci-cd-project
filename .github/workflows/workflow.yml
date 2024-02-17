@@ -18,6 +18,7 @@ jobs:
         run: |   # Multi-line command for readability
           pip install --upgrade pip
           pip install -r requirements.txt 
+          pip install flake8
 
       - name: lint with flake8
         run: |
